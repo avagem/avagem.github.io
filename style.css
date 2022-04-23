@@ -1,0 +1,321 @@
+html {
+    font-size: 100%;
+    justify-content: center;
+}
+
+.nav-bar{
+    width:100%;
+    background: linear-gradient( rgb(107, 37, 119) 0%, rgb(13, 2, 103) 48%, rgb(3, 2, 15) 100%);
+    -ms-background-position-x: 20px;
+    height: 900px;
+}
+.nav-bar ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px 25px;
+}
+.nav-bar ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+// noinspection CssNoGenericFontName
+    font-family: "Glacial Indifference";
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.nav-bar ul li a:hover{
+    color: #f274d8;
+    transition: .4s;
+}
+#hero{
+    display: flex;
+    justify-content: center;
+    padding-left: 100px;
+}
+#decor-images{
+    position: relative;
+}
+#trione{
+    margin-left: -100px;
+    position: absolute;
+}
+
+h1{
+    color: white;
+    margin:20px 0px 20px;
+    font-size:75px;
+}
+h3{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+h4{
+    color: rebeccapurple;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: bold;
+}
+div.content{
+    text-align: center;
+}
+.info{
+    background: linear-gradient( rgb(5, 4, 19) 0%, rgb(8, 6, 20) 48%, rgb(3, 2, 15) 100%);
+    -ms-background-position-x: 20px;
+}
+#decor-images{
+    overflow:hidden
+}
+#tritwo{
+    position: relative; left:2200px; bottom:150px;
+}
+
+#about-me{
+    color: white;
+    opacity:10%;
+    font-size: 200px;
+    margin-left: 250px;
+    position: relative;
+    justify-content: center;
+}
+.about{
+    width:100%;
+    padding: 100px 0px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+.tsp-abt{
+    color:white;
+    opacity: 10%;
+    font-size: 180px;
+    z-index: 0;
+    text-align: center;
+    margin-bottom: -280px;
+    margin-left: 50px;
+    text-shadow: white;
+    letter-spacing: 8px;
+    font-weight: bold;
+    margin-top: 0;
+}
+.about img{
+    height: auto;
+    max-width: 100%;
+    width: 1700px;
+    margin-left: -140px;
+    margin-top: 120px;
+    position: relative; left: 60px; bottom: 100px;
+}
+.about-text{
+    width:auto;
+    position: relative; right:100px; left: 5px;
+
+}
+.main{
+    width:1360px;
+    max-width: 95%;
+    margin: 0 auto;
+    margin-left: -11px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.wrapper-main{
+    background-image: linear-gradient( rgb(28, 20, 93) 0%, rgb(21, 17, 52) 48%, rgb(17, 17, 17) 100%);
+    border-radius: 30px;
+    height:40%;
+    width: 70%;
+    z-index: 1;
+}
+.about-text h2{
+    color: white;
+    font-size: 50px;
+// noinspection CssNoGenericFontName
+    font-family: "Glacial Indifference";
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    margin-left: 140px;
+}
+.about-text .intro{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 25px;
+// noinspection CssNoGenericFontName
+    font-family: "Glacial Indifference";
+    margin-left: 140px;
+    margin-bottom: 50px;
+}
+.about-text h6{
+    color: white;
+    letter-spacing: 1px;
+    line-height: 40px;
+// noinspection CssNoGenericFontName
+    font-family: "Glacial Indifference";
+    font-size: 30px;
+    margin-left: 140px;
+    margin-bottom: 10px;
+
+}
+.about-text p{
+    color: white;
+    letter-spacing: 2px;
+    line-height: 28px;
+    font-size: 25px;
+// noinspection CssNoGenericFontName
+    font-family: "Glacial Indifference";
+    margin-left: 140px;
+    margin-bottom: 10px;
+}
+.about-text ul{
+    color: white;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 22px;
+// noinspection CssNoGenericFontName
+    font-family: "Glacial Indifference";
+    margin-left: 140px;
+    padding-bottom: 30px;
+}
+span{
+    color: #b84ec8;
+    font-weight: bold;
+// noinspection CssNoGenericFontName
+    font-family: "Glacial Indifference";
+    margin-left: 50px;
+}
+
+.skills{
+    background-image: linear-gradient(rgb(228, 237, 253) 0%, rgb(196, 207, 252));
+    -ms-background-position-x: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 200px;
+    padding-top: 100px;
+
+}
+.tsp-skill{
+    color:white;
+    opacity: 20%;
+    font-size: 200px;
+    z-index: 0;
+    margin-bottom: -250px;
+    text-shadow: white;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+.first-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.second-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.col{
+    opacity: 20%;
+    height: auto;
+    width: auto;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.col:hover{
+    opacity: 100%;
+    transition: transform .9s;
+    cursor: pointer;
+}
+#skills-title{
+    color: black;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 60px;
+// noinspection CssNoGenericFontName
+    font-family: "Glacial Indifference";
+    z-index: 10;
+    padding-bottom: 150px;
+    margin-top: 100px;
+}
+
+.gallery{
+    background: linear-gradient( rgb(209, 209, 236) 0%, rgb(196, 186, 253) 48%, rgb(189, 167, 250) 100%);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 200px;
+    padding-top: 100px;
+    z-index: 20;
+}
+.tsp-gal{
+    color:white;
+    opacity: 10%;
+    font-size: 200px;
+    z-index: 0;
+    margin-bottom: -350px;
+    margin-left: 300px;
+    text-shadow: white;
+    letter-spacing: 5px;
+    font-weight: bold;
+    margin-top: 0;
+    position: relative;
+}
+.left-half h3{
+    font-size: 60px;
+    font-weight: bold;
+// noinspection CssNoGenericFontName
+    font-family: "Glacial Indifference";
+    letter-spacing: 1px;
+    color: black;
+    text-align: left;
+}
+.left-half p{
+    font-size: 25px;
+// noinspection CssNoGenericFontName
+    font-family: "Glacial Indifference";
+    color: black;
+    letter-spacing: 1px;
+
+}
+.wrapper-gl{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5%;
+    width: 80%;
+    z-index: 10;
+    justify-content: space-evenly;
+}
+.left-half{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-bottom: 100px;
+}
+.gl-img{
+    padding: 10px;
+    max-width: 100%;
+    z-index: 20;
+}
+.gl-img{
+    border-radius: 20px;
+}
+
+.gl-img:hover {
+    transform: scale(1.5);
+}
+
+body {
+    height: 100%;
+}
+
+#page-content {
+    flex: 1 0 auto;
+}
+
+
+
+
+
